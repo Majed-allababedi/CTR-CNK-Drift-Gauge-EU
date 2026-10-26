@@ -29,15 +29,15 @@ The following features were created by **tomtotom** and are described on the [or
 - Preserves EU HUD language dependencies in **five HUD payloads**, including Arabic.
 - Adapts the hook/helper calls for the tested EU executable and verifies **seven executable writes** with original-byte checks.
 - Works with EU-aware loader selection, preflight and native launcher catalog display.
-- Displays `tomtotom (Original) | Majed-allababedi (EU adaptation)` in the launcher author field.
+- Displays **`Majed-allababedi`** in the launcher author field. Original-author attribution remains in this README, LICENSE.md, the package README and executable patch metadata.
 
-Version **1.0.8** adds explicit original-author and EU-adapter credit. Its asset payloads and executable write addresses/values are unchanged from the locally tested EU **1.0.7** conversion. This version number identifies this adaptation, not an official upstream release.
+Version **1.0.9** shortens the launcher display name to **Majed-allababedi**, while retaining original-author and EU-adapter credit in the documentation and patch metadata. Its asset payloads and executable write addresses/values are unchanged from the locally tested EU **1.0.7** conversion. This version number identifies this adaptation, not an official upstream release.
 
 ## Installation
 
 1. Use a compatible OCTR launcher with the EU-aware mod-loader support from the [launcher repository](https://github.com/Majed-allababedi/OCTR-NitroFueled-PC). An unmodified loader that only accepts CUSA13795 packages is insufficient.
 2. Back up your saves. Disable any standalone CNK/boost-gauge/reserves mod that overlaps this package.
-3. Download `reserves-cnk-drift-gauge-eu-1.0.8.zip` from Releases, then use **Mods → Add files / Install ZIP**, or place the ZIP in the launcher's `mods` folder.
+3. Download `reserves-cnk-drift-gauge-eu-1.0.9.zip` from Releases, then use **Mods → Add files / Install ZIP**, or place the ZIP in the launcher's `mods` folder.
 4. Press **Reload**, enable **Reserves + CNK Drift Gauge (EU 1.21)**, and fully restart the game.
 5. **Select the Speedometer HUD inside the game**, enter a race, and drift/charge a boost to see the gauge.
 

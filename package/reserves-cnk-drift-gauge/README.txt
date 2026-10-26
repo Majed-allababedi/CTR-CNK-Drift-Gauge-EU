@@ -1,4 +1,4 @@
-CNK Drift Gauge + Reserves Meter - EU adaptation 1.0.8
+CNK Drift Gauge + Reserves Meter - EU adaptation 1.0.9
 
 Original mod, artwork and gameplay-display logic: tomtotom
 Original page: https://gamebanana.com/mods/729041
@@ -32,3 +32,6 @@ Copyright and original license remain with the respective authors. Original
 GameBanana page lists CC BY-NC-ND 4.0; the repository owner confirms permission
 from tomtotom to distribute this modified EU version. This permission is not a
 blanket sublicense for further modified redistribution; ask the original author.
+
+Version 1.0.9 shows only Majed-allababedi in the launcher author field.
+Original-author attribution remains in this README and executable patch metadata.

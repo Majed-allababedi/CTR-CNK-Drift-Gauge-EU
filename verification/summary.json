@@ -1,7 +1,7 @@
 {
   "title_id": "CUSA14876",
   "app_version": "01.21",
-  "package_version": "1.0.8",
+  "package_version": "1.0.9",
   "original_author": "tomtotom",
   "eu_adapter": "Majed-allababedi",
   "gameplay_code_unchanged_from_tested_1_0_7": true,
@@ -10,5 +10,6 @@
   "executable_writes": 7,
   "runtime_confirmation": "User-reported working EU gameplay on 1.0.7; 1.0.8 changes attribution metadata only.",
   "original_source": "https://gamebanana.com/mods/729041",
-  "permission": "Repository owner confirms permission from tomtotom to distribute the modified EU version; original license remains attributed."
+  "permission": "Repository owner confirms permission from tomtotom to distribute the modified EU version; original license remains attributed.",
+  "launcher_display_author": "Majed-allababedi"
 }

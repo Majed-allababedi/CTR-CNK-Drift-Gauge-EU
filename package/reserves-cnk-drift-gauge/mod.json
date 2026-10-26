@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "id": "reserves-cnk-drift-gauge",
   "name": "Reserves + CNK Drift Gauge (EU 1.21)",
-  "version": "1.0.8",
-  "author": "tomtotom (Original) | Majed-allababedi (EU adaptation)",
+  "version": "1.0.9",
+  "author": "Majed-allababedi",
   "description": "EU CUSA14876 1.21 adaptation by Majed-allababedi. Original mod by tomtotom. CNK drift timing and live boost reserves; select the Speedometer HUD. https://gamebanana.com/mods/729041",
   "requiresCapabilities": [
     "archive-assets",
@@ -290,7 +290,7 @@
     },
     {
       "file": "patches/reserves.xml",
-      "sha256": "60c0bff20e18d23ba7d4d11ebdaab28ee4921ba1c3418ee46f61c2724402281b",
+      "sha256": "44f139699421f24b69d5c5e8d94cc6255d183c5746467b9d9fa18da76f300009",
       "bytes": 7427
     },
     {
@@ -440,8 +440,8 @@
     },
     {
       "file": "README.txt",
-      "sha256": "3349ca5372417a7a115ed94a8964df841772005fb7e44ece2763cfead5aad0b5",
-      "bytes": 2074
+      "sha256": "d629a5cb2547acc8b5391808a156385682ab47c8131350a259476422cbe67561",
+      "bytes": 2232
     }
   ]
 }

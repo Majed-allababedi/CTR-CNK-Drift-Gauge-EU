@@ -16,8 +16,8 @@ def digest(data):
 
 def verify(package=PACKAGE, archive=None):
     manifest = json.loads((package / 'mod.json').read_text(encoding='utf-8'))
-    assert manifest['version'] == '1.0.8'
-    assert manifest['author'] == 'tomtotom (Original) | Majed-allababedi (EU adaptation)'
+    assert manifest['version'] == '1.0.9'
+    assert manifest['author'] == 'Majed-allababedi'
     declared = {record['file']: record for record in manifest['files']}
     assert len(declared) == len(manifest['files'])
     actual = {p.relative_to(package).as_posix() for p in package.rglob('*') if p.is_file()}
