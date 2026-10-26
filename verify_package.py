@@ -16,7 +16,7 @@ def digest(data):
 
 def verify(package=PACKAGE, archive=None):
     manifest = json.loads((package / 'mod.json').read_text(encoding='utf-8'))
-    assert manifest['version'] == '1.0.9'
+    assert manifest['version'] == '1.0.6'
     assert manifest['author'] == 'Majed-allababedi'
     declared = {record['file']: record for record in manifest['files']}
     assert len(declared) == len(manifest['files'])

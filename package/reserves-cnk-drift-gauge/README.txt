@@ -1,4 +1,4 @@
-CNK Drift Gauge + Reserves Meter - EU adaptation 1.0.9
+CNK Drift Gauge + Reserves Meter - EU adaptation 1.0.6
 
 Original mod, artwork and gameplay-display logic: tomtotom
 Original page: https://gamebanana.com/mods/729041
@@ -19,8 +19,8 @@ mod does not change boost timing, speed or gameplay mechanics.
 EU adaptation: 29 resource indices resolved by asset name, 5 HUD payloads retain
 EU language dependencies, and 7 executable writes are verified with original-byte
 hashes. Hook and helper calls are rebuilt for the tested EU executable.
-Version 1.0.8 adds explicit original-author/EU-adapter credit; executable write
-addresses/values and asset payloads are unchanged from the gameplay-tested 1.0.7.
+Original-author/EU-adapter credits are preserved; executable write
+addresses/values and asset payloads are unchanged from the gameplay-tested EU conversion.
 Majed-allababedi confirmed the EU 1.21 package works in-game. This is not proof of
 compatibility with every executable variant, ultrawide mode or multiplayer.
 
@@ -33,5 +33,5 @@ GameBanana page lists CC BY-NC-ND 4.0; the repository owner confirms permission
 from tomtotom to distribute this modified EU version. This permission is not a
 blanket sublicense for further modified redistribution; ask the original author.
 
-Version 1.0.9 shows only Majed-allababedi in the launcher author field.
+Version 1.0.6 shows only Majed-allababedi in the launcher author field.
 Original-author attribution remains in this README and executable patch metadata.

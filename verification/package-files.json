@@ -1,6 +1,6 @@
 {
   "mod.json": {
-    "sha256": "67afd968abe04c44607f89d174f08374af3e294e91d52ef4a152d0380f7fc982",
+    "sha256": "ca269bcf881c3317641b11a5caa4311427141e9f6b74db747481686e67a26693",
     "bytes": 22131
   },
   "octr-mod.required": {
@@ -8,7 +8,7 @@
     "bytes": 19
   },
   "patches/reserves.xml": {
-    "sha256": "44f139699421f24b69d5c5e8d94cc6255d183c5746467b9d9fa18da76f300009",
+    "sha256": "f40dc637fec82c85c853bdb22926402e9fb7ae4c1415e2955990593a458e0609",
     "bytes": 7427
   },
   "payloads/assets/juicedomain_hub.pak/textures/GuiStandard_diffuse,textures@!ui!Octane!Boost!octane_ui_hud_boost_bg`tga,001.igz": {
@@ -128,7 +128,7 @@
     "bytes": 78660
   },
   "README.txt": {
-    "sha256": "d629a5cb2547acc8b5391808a156385682ab47c8131350a259476422cbe67561",
-    "bytes": 2232
+    "sha256": "4ab3b8e716330e4e06d426a9486827aa2e8f62d59a967573939f9b9f02e2ae1f",
+    "bytes": 2227
   }
 }
