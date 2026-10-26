@@ -1,0 +1,447 @@
+{
+  "schemaVersion": 2,
+  "id": "reserves-cnk-drift-gauge",
+  "name": "Reserves + CNK Drift Gauge (EU 1.21)",
+  "version": "1.0.8",
+  "author": "tomtotom (Original) | Majed-allababedi (EU adaptation)",
+  "description": "EU CUSA14876 1.21 adaptation by Majed-allababedi. Original mod by tomtotom. CNK drift timing and live boost reserves; select the Speedometer HUD. https://gamebanana.com/mods/729041",
+  "requiresCapabilities": [
+    "archive-assets",
+    "xml-patches",
+    "code-signatures"
+  ],
+  "compatibility": {
+    "online": "allowed"
+  },
+  "conflicts": [
+    "cnk-boost-gauge"
+  ],
+  "operations": [
+    {
+      "kind": "archive_asset",
+      "archive": "juicedomain_hub.pak",
+      "asset": "ui/GuiSharedAssets/Octane_BoostBar.igz",
+      "index": 5,
+      "original_sha256": "b99765481a6131d24b087391c66e6577facbe852a3c696ba347f8473ffca7f27",
+      "patched_sha256": "b9c29e89fd589b9c4df0e8587067aedac31eb03d349d06b28a64e662b4c15012",
+      "payload": "payloads/assets/juicedomain_hub.pak/ui/GuiSharedAssets/Octane_BoostBar.igz"
+    },
+    {
+      "kind": "archive_asset",
+      "archive": "juicedomain_hub.pak",
+      "asset": "ui/materialInstances/GuiSharedAssets/juice_Octane_BoostBar_materials.igz",
+      "index": 324,
+      "original_sha256": "8de58a03d3a59118ddd9b71a0be183be59fc208c0b6f06ed5da638aa612ea1ad",
+      "patched_sha256": "1a5fb233bc20b22f86dfaddf85e01ee9ff5d261e78109891685e5e7723941f50",
+      "payload": "payloads/assets/juicedomain_hub.pak/ui/materialInstances/GuiSharedAssets/juice_Octane_BoostBar_materials.igz"
+    },
+    {
+      "kind": "archive_asset",
+      "archive": "juicedomain_hub.pak",
+      "asset": "vsc/UI/Octane_BoostBar/Octane_BoostBar_Root.igz",
+      "index": 428,
+      "original_sha256": "7018f0016be468a180c36d9211fa7b4222484b41cd68581476120c6d7aee94c2",
+      "patched_sha256": "0ddb95514414b490f3716dd5499cc06551a09eb831386c89ba538e32e4e2b888",
+      "payload": "payloads/assets/juicedomain_hub.pak/vsc/UI/Octane_BoostBar/Octane_BoostBar_Root.igz"
+    },
+    {
+      "kind": "archive_asset",
+      "archive": "juicedomain_hub.pak",
+      "asset": "vsc/common/UI/Octane_BoostBar/common_Octane_BoostBar.igz",
+      "index": 573,
+      "original_sha256": "1b54307da04443dfed3c2481213adc3668737597bb01bd9566abfe2f4db3cc00",
+      "patched_sha256": "bdf9e6e217dc60c7d3816a118ba8cc8777c90c56d396af8b65dd341bbc6d35d4",
+      "payload": "payloads/assets/juicedomain_hub.pak/vsc/common/UI/Octane_BoostBar/common_Octane_BoostBar.igz"
+    },
+    {
+      "kind": "archive_asset",
+      "archive": "juicedomain_race.pak",
+      "asset": "ui/GuiSharedAssets/Octane_BoostBar.igz",
+      "index": 7,
+      "original_sha256": "b99765481a6131d24b087391c66e6577facbe852a3c696ba347f8473ffca7f27",
+      "patched_sha256": "b9c29e89fd589b9c4df0e8587067aedac31eb03d349d06b28a64e662b4c15012",
+      "payload": "payloads/assets/juicedomain_race.pak/ui/GuiSharedAssets/Octane_BoostBar.igz"
+    },
+    {
+      "kind": "archive_asset",
+      "archive": "juicedomain_race.pak",
+      "asset": "ui/materialInstances/GuiSharedAssets/juice_Octane_BoostBar_materials.igz",
+      "index": 204,
+      "original_sha256": "8de58a03d3a59118ddd9b71a0be183be59fc208c0b6f06ed5da638aa612ea1ad",
+      "patched_sha256": "1a5fb233bc20b22f86dfaddf85e01ee9ff5d261e78109891685e5e7723941f50",
+      "payload": "payloads/assets/juicedomain_race.pak/ui/materialInstances/GuiSharedAssets/juice_Octane_BoostBar_materials.igz"
+    },
+    {
+      "kind": "archive_asset",
+      "archive": "juicedomain_race.pak",
+      "asset": "vsc/UI/Octane_BoostBar/Octane_BoostBar_Root.igz",
+      "index": 274,
+      "original_sha256": "7018f0016be468a180c36d9211fa7b4222484b41cd68581476120c6d7aee94c2",
+      "patched_sha256": "0ddb95514414b490f3716dd5499cc06551a09eb831386c89ba538e32e4e2b888",
+      "payload": "payloads/assets/juicedomain_race.pak/vsc/UI/Octane_BoostBar/Octane_BoostBar_Root.igz"
+    },
+    {
+      "kind": "archive_asset",
+      "archive": "juicedomain_race.pak",
+      "asset": "vsc/common/UI/Octane_BoostBar/common_Octane_BoostBar.igz",
+      "index": 360,
+      "original_sha256": "1b54307da04443dfed3c2481213adc3668737597bb01bd9566abfe2f4db3cc00",
+      "patched_sha256": "bdf9e6e217dc60c7d3816a118ba8cc8777c90c56d396af8b65dd341bbc6d35d4",
+      "payload": "payloads/assets/juicedomain_race.pak/vsc/common/UI/Octane_BoostBar/common_Octane_BoostBar.igz"
+    },
+    {
+      "kind": "archive_asset",
+      "archive": "juicedomain_race.pak",
+      "asset": "ui/Octane_Racer_HUD.igz",
+      "index": 822,
+      "original_sha256": "e609133c63581dd87572811b356cb4e14be4e84f8def80a3b61fa4e19f4579b1",
+      "patched_sha256": "39c2280e89cf68db5e676edb8390c5039e397debbd3779e7afc9a7b17f9124c7",
+      "payload": "payloads/assets/juicedomain_race.pak/ui/Octane_Racer_HUD.igz"
+    },
+    {
+      "kind": "archive_asset",
+      "archive": "juicedomain_race_flareday.pak",
+      "asset": "ui/GuiSharedAssets/Octane_BoostBar.igz",
+      "index": 8,
+      "original_sha256": "b99765481a6131d24b087391c66e6577facbe852a3c696ba347f8473ffca7f27",
+      "patched_sha256": "b9c29e89fd589b9c4df0e8587067aedac31eb03d349d06b28a64e662b4c15012",
+      "payload": "payloads/assets/juicedomain_race_flareday.pak/ui/GuiSharedAssets/Octane_BoostBar.igz"
+    },
+    {
+      "kind": "archive_asset",
+      "archive": "juicedomain_race_flareday.pak",
+      "asset": "ui/materialInstances/GuiSharedAssets/juice_Octane_BoostBar_materials.igz",
+      "index": 206,
+      "original_sha256": "8de58a03d3a59118ddd9b71a0be183be59fc208c0b6f06ed5da638aa612ea1ad",
+      "patched_sha256": "1a5fb233bc20b22f86dfaddf85e01ee9ff5d261e78109891685e5e7723941f50",
+      "payload": "payloads/assets/juicedomain_race_flareday.pak/ui/materialInstances/GuiSharedAssets/juice_Octane_BoostBar_materials.igz"
+    },
+    {
+      "kind": "archive_asset",
+      "archive": "juicedomain_race_flareday.pak",
+      "asset": "vsc/UI/Octane_BoostBar/Octane_BoostBar_Root.igz",
+      "index": 276,
+      "original_sha256": "7018f0016be468a180c36d9211fa7b4222484b41cd68581476120c6d7aee94c2",
+      "patched_sha256": "0ddb95514414b490f3716dd5499cc06551a09eb831386c89ba538e32e4e2b888",
+      "payload": "payloads/assets/juicedomain_race_flareday.pak/vsc/UI/Octane_BoostBar/Octane_BoostBar_Root.igz"
+    },
+    {
+      "kind": "archive_asset",
+      "archive": "juicedomain_race_flareday.pak",
+      "asset": "vsc/common/UI/Octane_BoostBar/common_Octane_BoostBar.igz",
+      "index": 364,
+      "original_sha256": "1b54307da04443dfed3c2481213adc3668737597bb01bd9566abfe2f4db3cc00",
+      "patched_sha256": "bdf9e6e217dc60c7d3816a118ba8cc8777c90c56d396af8b65dd341bbc6d35d4",
+      "payload": "payloads/assets/juicedomain_race_flareday.pak/vsc/common/UI/Octane_BoostBar/common_Octane_BoostBar.igz"
+    },
+    {
+      "kind": "archive_asset",
+      "archive": "juicedomain_race_flareday.pak",
+      "asset": "ui/Octane_Racer_HUD.igz",
+      "index": 835,
+      "original_sha256": "e609133c63581dd87572811b356cb4e14be4e84f8def80a3b61fa4e19f4579b1",
+      "patched_sha256": "39c2280e89cf68db5e676edb8390c5039e397debbd3779e7afc9a7b17f9124c7",
+      "payload": "payloads/assets/juicedomain_race_flareday.pak/ui/Octane_Racer_HUD.igz"
+    },
+    {
+      "kind": "archive_asset",
+      "archive": "juicedomain_race_flarenight.pak",
+      "asset": "ui/GuiSharedAssets/Octane_BoostBar.igz",
+      "index": 8,
+      "original_sha256": "b99765481a6131d24b087391c66e6577facbe852a3c696ba347f8473ffca7f27",
+      "patched_sha256": "b9c29e89fd589b9c4df0e8587067aedac31eb03d349d06b28a64e662b4c15012",
+      "payload": "payloads/assets/juicedomain_race_flarenight.pak/ui/GuiSharedAssets/Octane_BoostBar.igz"
+    },
+    {
+      "kind": "archive_asset",
+      "archive": "juicedomain_race_flarenight.pak",
+      "asset": "ui/materialInstances/GuiSharedAssets/juice_Octane_BoostBar_materials.igz",
+      "index": 208,
+      "original_sha256": "8de58a03d3a59118ddd9b71a0be183be59fc208c0b6f06ed5da638aa612ea1ad",
+      "patched_sha256": "1a5fb233bc20b22f86dfaddf85e01ee9ff5d261e78109891685e5e7723941f50",
+      "payload": "payloads/assets/juicedomain_race_flarenight.pak/ui/materialInstances/GuiSharedAssets/juice_Octane_BoostBar_materials.igz"
+    },
+    {
+      "kind": "archive_asset",
+      "archive": "juicedomain_race_flarenight.pak",
+      "asset": "vsc/UI/Octane_BoostBar/Octane_BoostBar_Root.igz",
+      "index": 278,
+      "original_sha256": "7018f0016be468a180c36d9211fa7b4222484b41cd68581476120c6d7aee94c2",
+      "patched_sha256": "0ddb95514414b490f3716dd5499cc06551a09eb831386c89ba538e32e4e2b888",
+      "payload": "payloads/assets/juicedomain_race_flarenight.pak/vsc/UI/Octane_BoostBar/Octane_BoostBar_Root.igz"
+    },
+    {
+      "kind": "archive_asset",
+      "archive": "juicedomain_race_flarenight.pak",
+      "asset": "vsc/common/UI/Octane_BoostBar/common_Octane_BoostBar.igz",
+      "index": 365,
+      "original_sha256": "1b54307da04443dfed3c2481213adc3668737597bb01bd9566abfe2f4db3cc00",
+      "patched_sha256": "bdf9e6e217dc60c7d3816a118ba8cc8777c90c56d396af8b65dd341bbc6d35d4",
+      "payload": "payloads/assets/juicedomain_race_flarenight.pak/vsc/common/UI/Octane_BoostBar/common_Octane_BoostBar.igz"
+    },
+    {
+      "kind": "archive_asset",
+      "archive": "juicedomain_race_flarenight.pak",
+      "asset": "ui/Octane_Racer_HUD.igz",
+      "index": 834,
+      "original_sha256": "e609133c63581dd87572811b356cb4e14be4e84f8def80a3b61fa4e19f4579b1",
+      "patched_sha256": "39c2280e89cf68db5e676edb8390c5039e397debbd3779e7afc9a7b17f9124c7",
+      "payload": "payloads/assets/juicedomain_race_flarenight.pak/ui/Octane_Racer_HUD.igz"
+    },
+    {
+      "kind": "archive_asset",
+      "archive": "update.pak",
+      "asset": "ui/GuiSharedAssets/Octane_BoostBar.igz",
+      "index": 32,
+      "original_sha256": "aface0ec8932c09640a14c361c16fecae47a6d6a7c04611a166bd37b723b679b",
+      "patched_sha256": "ab098b918cb764239fd037ff1062b96fcd81b7dd688c34be63ad0b02d3c2d2ed",
+      "payload": "payloads/assets/update.pak/ui/GuiSharedAssets/Octane_BoostBar.igz"
+    },
+    {
+      "kind": "archive_asset",
+      "archive": "update.pak",
+      "asset": "ui/Octane_Racer_HUD.igz",
+      "index": 3904,
+      "original_sha256": "459fc6bfe597de29e477da1c24f73395ef15767664a94c8de93a866297973490",
+      "patched_sha256": "9b0dd3efdb238585c8b754d06f724b19c0feffb388c06fe7738d3690ab1e4188",
+      "payload": "payloads/assets/update.pak/ui/Octane_Racer_HUD.igz"
+    },
+    {
+      "kind": "archive_asset",
+      "archive": "update2.pak",
+      "asset": "ui/Octane_Racer_HUD.igz",
+      "index": 10635,
+      "original_sha256": "d9233794a00ae2648f85684caf95dff49e3e337fced678307b1ddc1437a9f309",
+      "patched_sha256": "3d1091ccc76ef2b8a9e7d4e0b7c29367e33b8516001d3d80b2c79200b931a670",
+      "payload": "payloads/assets/update2.pak/ui/Octane_Racer_HUD.igz"
+    },
+    {
+      "kind": "archive_asset",
+      "archive": "juicedomain_hub.pak",
+      "asset": "textures/GuiStandard_diffuse,textures@!ui!Octane!Boost!octane_ui_hud_boost_bg`tga,001.igz",
+      "index": 864,
+      "original_sha256": "6a9e546b3465811024cfe61ba30ba55760be766f36055f4543f0dab13ef27458",
+      "patched_sha256": "1d37c0d598016de0b2c8c87b93dcd69f7315e47611884c1ef1ee29c7f4647efb",
+      "payload": "payloads/assets/juicedomain_hub.pak/textures/GuiStandard_diffuse,textures@!ui!Octane!Boost!octane_ui_hud_boost_bg`tga,001.igz"
+    },
+    {
+      "kind": "archive_asset",
+      "archive": "juicedomain_race.pak",
+      "asset": "textures/GuiStandard_diffuse,textures@!ui!Octane!Boost!octane_ui_hud_boost_bg`tga,001.igz",
+      "index": 525,
+      "original_sha256": "6a9e546b3465811024cfe61ba30ba55760be766f36055f4543f0dab13ef27458",
+      "patched_sha256": "1d37c0d598016de0b2c8c87b93dcd69f7315e47611884c1ef1ee29c7f4647efb",
+      "payload": "payloads/assets/juicedomain_race.pak/textures/GuiStandard_diffuse,textures@!ui!Octane!Boost!octane_ui_hud_boost_bg`tga,001.igz"
+    },
+    {
+      "kind": "archive_asset",
+      "archive": "juicedomain_race_flareday.pak",
+      "asset": "textures/GuiStandard_diffuse,textures@!ui!Octane!Boost!octane_ui_hud_boost_bg`tga,001.igz",
+      "index": 531,
+      "original_sha256": "6a9e546b3465811024cfe61ba30ba55760be766f36055f4543f0dab13ef27458",
+      "patched_sha256": "1d37c0d598016de0b2c8c87b93dcd69f7315e47611884c1ef1ee29c7f4647efb",
+      "payload": "payloads/assets/juicedomain_race_flareday.pak/textures/GuiStandard_diffuse,textures@!ui!Octane!Boost!octane_ui_hud_boost_bg`tga,001.igz"
+    },
+    {
+      "kind": "archive_asset",
+      "archive": "juicedomain_race_flarenight.pak",
+      "asset": "textures/GuiStandard_diffuse,textures@!ui!Octane!Boost!octane_ui_hud_boost_bg`tga,001.igz",
+      "index": 532,
+      "original_sha256": "6a9e546b3465811024cfe61ba30ba55760be766f36055f4543f0dab13ef27458",
+      "patched_sha256": "1d37c0d598016de0b2c8c87b93dcd69f7315e47611884c1ef1ee29c7f4647efb",
+      "payload": "payloads/assets/juicedomain_race_flarenight.pak/textures/GuiStandard_diffuse,textures@!ui!Octane!Boost!octane_ui_hud_boost_bg`tga,001.igz"
+    },
+    {
+      "kind": "archive_asset",
+      "archive": "juicedomain_race.pak",
+      "asset": "vsc/common/UI/Octane_Racer_HUD/Octane_Racer_HUD_Speedometer.igz",
+      "index": 479,
+      "original_sha256": "5d0e34381cc8d26c4d7bc71b086104bb54a42e4a03aba2a894aa7780fd098f4f",
+      "patched_sha256": "aa453a94c66e185d1f4b02ba04b5149ff28b701c200b5129266e44b5d551edc0",
+      "payload": "payloads/assets/juicedomain_race.pak/vsc/common/UI/Octane_Racer_HUD/Octane_Racer_HUD_Speedometer.igz"
+    },
+    {
+      "kind": "archive_asset",
+      "archive": "juicedomain_race_flareday.pak",
+      "asset": "vsc/common/UI/Octane_Racer_HUD/Octane_Racer_HUD_Speedometer.igz",
+      "index": 484,
+      "original_sha256": "5d0e34381cc8d26c4d7bc71b086104bb54a42e4a03aba2a894aa7780fd098f4f",
+      "patched_sha256": "aa453a94c66e185d1f4b02ba04b5149ff28b701c200b5129266e44b5d551edc0",
+      "payload": "payloads/assets/juicedomain_race_flareday.pak/vsc/common/UI/Octane_Racer_HUD/Octane_Racer_HUD_Speedometer.igz"
+    },
+    {
+      "kind": "archive_asset",
+      "archive": "juicedomain_race_flarenight.pak",
+      "asset": "vsc/common/UI/Octane_Racer_HUD/Octane_Racer_HUD_Speedometer.igz",
+      "index": 485,
+      "original_sha256": "5d0e34381cc8d26c4d7bc71b086104bb54a42e4a03aba2a894aa7780fd098f4f",
+      "patched_sha256": "aa453a94c66e185d1f4b02ba04b5149ff28b701c200b5129266e44b5d551edc0",
+      "payload": "payloads/assets/juicedomain_race_flarenight.pak/vsc/common/UI/Octane_Racer_HUD/Octane_Racer_HUD_Speedometer.igz"
+    }
+  ],
+  "patches": [
+    "patches/reserves.xml"
+  ],
+  "files": [
+    {
+      "file": "octr-mod.required",
+      "sha256": "2d5586c93e82ea2dbaaf8ddd5fc63068a0399479ef9824fb49c477b62a4ccc26",
+      "bytes": 19
+    },
+    {
+      "file": "patches/reserves.xml",
+      "sha256": "60c0bff20e18d23ba7d4d11ebdaab28ee4921ba1c3418ee46f61c2724402281b",
+      "bytes": 7427
+    },
+    {
+      "file": "payloads/assets/juicedomain_hub.pak/textures/GuiStandard_diffuse,textures@!ui!Octane!Boost!octane_ui_hud_boost_bg`tga,001.igz",
+      "sha256": "1d37c0d598016de0b2c8c87b93dcd69f7315e47611884c1ef1ee29c7f4647efb",
+      "bytes": 18948352
+    },
+    {
+      "file": "payloads/assets/juicedomain_hub.pak/ui/GuiSharedAssets/Octane_BoostBar.igz",
+      "sha256": "b9c29e89fd589b9c4df0e8587067aedac31eb03d349d06b28a64e662b4c15012",
+      "bytes": 7992
+    },
+    {
+      "file": "payloads/assets/juicedomain_hub.pak/ui/materialInstances/GuiSharedAssets/juice_Octane_BoostBar_materials.igz",
+      "sha256": "1a5fb233bc20b22f86dfaddf85e01ee9ff5d261e78109891685e5e7723941f50",
+      "bytes": 4968
+    },
+    {
+      "file": "payloads/assets/juicedomain_hub.pak/vsc/common/UI/Octane_BoostBar/common_Octane_BoostBar.igz",
+      "sha256": "bdf9e6e217dc60c7d3816a118ba8cc8777c90c56d396af8b65dd341bbc6d35d4",
+      "bytes": 24864
+    },
+    {
+      "file": "payloads/assets/juicedomain_hub.pak/vsc/UI/Octane_BoostBar/Octane_BoostBar_Root.igz",
+      "sha256": "0ddb95514414b490f3716dd5499cc06551a09eb831386c89ba538e32e4e2b888",
+      "bytes": 7416
+    },
+    {
+      "file": "payloads/assets/juicedomain_race.pak/textures/GuiStandard_diffuse,textures@!ui!Octane!Boost!octane_ui_hud_boost_bg`tga,001.igz",
+      "sha256": "1d37c0d598016de0b2c8c87b93dcd69f7315e47611884c1ef1ee29c7f4647efb",
+      "bytes": 18948352
+    },
+    {
+      "file": "payloads/assets/juicedomain_race.pak/ui/GuiSharedAssets/Octane_BoostBar.igz",
+      "sha256": "b9c29e89fd589b9c4df0e8587067aedac31eb03d349d06b28a64e662b4c15012",
+      "bytes": 7992
+    },
+    {
+      "file": "payloads/assets/juicedomain_race.pak/ui/materialInstances/GuiSharedAssets/juice_Octane_BoostBar_materials.igz",
+      "sha256": "1a5fb233bc20b22f86dfaddf85e01ee9ff5d261e78109891685e5e7723941f50",
+      "bytes": 4968
+    },
+    {
+      "file": "payloads/assets/juicedomain_race.pak/ui/Octane_Racer_HUD.igz",
+      "sha256": "39c2280e89cf68db5e676edb8390c5039e397debbd3779e7afc9a7b17f9124c7",
+      "bytes": 56964
+    },
+    {
+      "file": "payloads/assets/juicedomain_race.pak/vsc/common/UI/Octane_BoostBar/common_Octane_BoostBar.igz",
+      "sha256": "bdf9e6e217dc60c7d3816a118ba8cc8777c90c56d396af8b65dd341bbc6d35d4",
+      "bytes": 24864
+    },
+    {
+      "file": "payloads/assets/juicedomain_race.pak/vsc/common/UI/Octane_Racer_HUD/Octane_Racer_HUD_Speedometer.igz",
+      "sha256": "aa453a94c66e185d1f4b02ba04b5149ff28b701c200b5129266e44b5d551edc0",
+      "bytes": 18672
+    },
+    {
+      "file": "payloads/assets/juicedomain_race.pak/vsc/UI/Octane_BoostBar/Octane_BoostBar_Root.igz",
+      "sha256": "0ddb95514414b490f3716dd5499cc06551a09eb831386c89ba538e32e4e2b888",
+      "bytes": 7416
+    },
+    {
+      "file": "payloads/assets/juicedomain_race_flareday.pak/textures/GuiStandard_diffuse,textures@!ui!Octane!Boost!octane_ui_hud_boost_bg`tga,001.igz",
+      "sha256": "1d37c0d598016de0b2c8c87b93dcd69f7315e47611884c1ef1ee29c7f4647efb",
+      "bytes": 18948352
+    },
+    {
+      "file": "payloads/assets/juicedomain_race_flareday.pak/ui/GuiSharedAssets/Octane_BoostBar.igz",
+      "sha256": "b9c29e89fd589b9c4df0e8587067aedac31eb03d349d06b28a64e662b4c15012",
+      "bytes": 7992
+    },
+    {
+      "file": "payloads/assets/juicedomain_race_flareday.pak/ui/materialInstances/GuiSharedAssets/juice_Octane_BoostBar_materials.igz",
+      "sha256": "1a5fb233bc20b22f86dfaddf85e01ee9ff5d261e78109891685e5e7723941f50",
+      "bytes": 4968
+    },
+    {
+      "file": "payloads/assets/juicedomain_race_flareday.pak/ui/Octane_Racer_HUD.igz",
+      "sha256": "39c2280e89cf68db5e676edb8390c5039e397debbd3779e7afc9a7b17f9124c7",
+      "bytes": 56964
+    },
+    {
+      "file": "payloads/assets/juicedomain_race_flareday.pak/vsc/common/UI/Octane_BoostBar/common_Octane_BoostBar.igz",
+      "sha256": "bdf9e6e217dc60c7d3816a118ba8cc8777c90c56d396af8b65dd341bbc6d35d4",
+      "bytes": 24864
+    },
+    {
+      "file": "payloads/assets/juicedomain_race_flareday.pak/vsc/common/UI/Octane_Racer_HUD/Octane_Racer_HUD_Speedometer.igz",
+      "sha256": "aa453a94c66e185d1f4b02ba04b5149ff28b701c200b5129266e44b5d551edc0",
+      "bytes": 18672
+    },
+    {
+      "file": "payloads/assets/juicedomain_race_flareday.pak/vsc/UI/Octane_BoostBar/Octane_BoostBar_Root.igz",
+      "sha256": "0ddb95514414b490f3716dd5499cc06551a09eb831386c89ba538e32e4e2b888",
+      "bytes": 7416
+    },
+    {
+      "file": "payloads/assets/juicedomain_race_flarenight.pak/textures/GuiStandard_diffuse,textures@!ui!Octane!Boost!octane_ui_hud_boost_bg`tga,001.igz",
+      "sha256": "1d37c0d598016de0b2c8c87b93dcd69f7315e47611884c1ef1ee29c7f4647efb",
+      "bytes": 18948352
+    },
+    {
+      "file": "payloads/assets/juicedomain_race_flarenight.pak/ui/GuiSharedAssets/Octane_BoostBar.igz",
+      "sha256": "b9c29e89fd589b9c4df0e8587067aedac31eb03d349d06b28a64e662b4c15012",
+      "bytes": 7992
+    },
+    {
+      "file": "payloads/assets/juicedomain_race_flarenight.pak/ui/materialInstances/GuiSharedAssets/juice_Octane_BoostBar_materials.igz",
+      "sha256": "1a5fb233bc20b22f86dfaddf85e01ee9ff5d261e78109891685e5e7723941f50",
+      "bytes": 4968
+    },
+    {
+      "file": "payloads/assets/juicedomain_race_flarenight.pak/ui/Octane_Racer_HUD.igz",
+      "sha256": "39c2280e89cf68db5e676edb8390c5039e397debbd3779e7afc9a7b17f9124c7",
+      "bytes": 56964
+    },
+    {
+      "file": "payloads/assets/juicedomain_race_flarenight.pak/vsc/common/UI/Octane_BoostBar/common_Octane_BoostBar.igz",
+      "sha256": "bdf9e6e217dc60c7d3816a118ba8cc8777c90c56d396af8b65dd341bbc6d35d4",
+      "bytes": 24864
+    },
+    {
+      "file": "payloads/assets/juicedomain_race_flarenight.pak/vsc/common/UI/Octane_Racer_HUD/Octane_Racer_HUD_Speedometer.igz",
+      "sha256": "aa453a94c66e185d1f4b02ba04b5149ff28b701c200b5129266e44b5d551edc0",
+      "bytes": 18672
+    },
+    {
+      "file": "payloads/assets/juicedomain_race_flarenight.pak/vsc/UI/Octane_BoostBar/Octane_BoostBar_Root.igz",
+      "sha256": "0ddb95514414b490f3716dd5499cc06551a09eb831386c89ba538e32e4e2b888",
+      "bytes": 7416
+    },
+    {
+      "file": "payloads/assets/update.pak/ui/GuiSharedAssets/Octane_BoostBar.igz",
+      "sha256": "ab098b918cb764239fd037ff1062b96fcd81b7dd688c34be63ad0b02d3c2d2ed",
+      "bytes": 8008
+    },
+    {
+      "file": "payloads/assets/update.pak/ui/Octane_Racer_HUD.igz",
+      "sha256": "9b0dd3efdb238585c8b754d06f724b19c0feffb388c06fe7738d3690ab1e4188",
+      "bytes": 68500
+    },
+    {
+      "file": "payloads/assets/update2.pak/ui/Octane_Racer_HUD.igz",
+      "sha256": "3d1091ccc76ef2b8a9e7d4e0b7c29367e33b8516001d3d80b2c79200b931a670",
+      "bytes": 78660
+    },
+    {
+      "file": "README.txt",
+      "sha256": "3349ca5372417a7a115ed94a8964df841772005fb7e44ece2763cfead5aad0b5",
+      "bytes": 2074
+    }
+  ]
+}

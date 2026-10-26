@@ -1,0 +1,134 @@
+{
+  "mod.json": {
+    "sha256": "3f5b33e543233fb102e5a935cba33c190fd575a35cbab46297ed2a2c9d9fd11c",
+    "bytes": 22169
+  },
+  "octr-mod.required": {
+    "sha256": "2d5586c93e82ea2dbaaf8ddd5fc63068a0399479ef9824fb49c477b62a4ccc26",
+    "bytes": 19
+  },
+  "patches/reserves.xml": {
+    "sha256": "60c0bff20e18d23ba7d4d11ebdaab28ee4921ba1c3418ee46f61c2724402281b",
+    "bytes": 7427
+  },
+  "payloads/assets/juicedomain_hub.pak/textures/GuiStandard_diffuse,textures@!ui!Octane!Boost!octane_ui_hud_boost_bg`tga,001.igz": {
+    "sha256": "1d37c0d598016de0b2c8c87b93dcd69f7315e47611884c1ef1ee29c7f4647efb",
+    "bytes": 18948352
+  },
+  "payloads/assets/juicedomain_hub.pak/ui/GuiSharedAssets/Octane_BoostBar.igz": {
+    "sha256": "b9c29e89fd589b9c4df0e8587067aedac31eb03d349d06b28a64e662b4c15012",
+    "bytes": 7992
+  },
+  "payloads/assets/juicedomain_hub.pak/ui/materialInstances/GuiSharedAssets/juice_Octane_BoostBar_materials.igz": {
+    "sha256": "1a5fb233bc20b22f86dfaddf85e01ee9ff5d261e78109891685e5e7723941f50",
+    "bytes": 4968
+  },
+  "payloads/assets/juicedomain_hub.pak/vsc/common/UI/Octane_BoostBar/common_Octane_BoostBar.igz": {
+    "sha256": "bdf9e6e217dc60c7d3816a118ba8cc8777c90c56d396af8b65dd341bbc6d35d4",
+    "bytes": 24864
+  },
+  "payloads/assets/juicedomain_hub.pak/vsc/UI/Octane_BoostBar/Octane_BoostBar_Root.igz": {
+    "sha256": "0ddb95514414b490f3716dd5499cc06551a09eb831386c89ba538e32e4e2b888",
+    "bytes": 7416
+  },
+  "payloads/assets/juicedomain_race.pak/textures/GuiStandard_diffuse,textures@!ui!Octane!Boost!octane_ui_hud_boost_bg`tga,001.igz": {
+    "sha256": "1d37c0d598016de0b2c8c87b93dcd69f7315e47611884c1ef1ee29c7f4647efb",
+    "bytes": 18948352
+  },
+  "payloads/assets/juicedomain_race.pak/ui/GuiSharedAssets/Octane_BoostBar.igz": {
+    "sha256": "b9c29e89fd589b9c4df0e8587067aedac31eb03d349d06b28a64e662b4c15012",
+    "bytes": 7992
+  },
+  "payloads/assets/juicedomain_race.pak/ui/materialInstances/GuiSharedAssets/juice_Octane_BoostBar_materials.igz": {
+    "sha256": "1a5fb233bc20b22f86dfaddf85e01ee9ff5d261e78109891685e5e7723941f50",
+    "bytes": 4968
+  },
+  "payloads/assets/juicedomain_race.pak/ui/Octane_Racer_HUD.igz": {
+    "sha256": "39c2280e89cf68db5e676edb8390c5039e397debbd3779e7afc9a7b17f9124c7",
+    "bytes": 56964
+  },
+  "payloads/assets/juicedomain_race.pak/vsc/common/UI/Octane_BoostBar/common_Octane_BoostBar.igz": {
+    "sha256": "bdf9e6e217dc60c7d3816a118ba8cc8777c90c56d396af8b65dd341bbc6d35d4",
+    "bytes": 24864
+  },
+  "payloads/assets/juicedomain_race.pak/vsc/common/UI/Octane_Racer_HUD/Octane_Racer_HUD_Speedometer.igz": {
+    "sha256": "aa453a94c66e185d1f4b02ba04b5149ff28b701c200b5129266e44b5d551edc0",
+    "bytes": 18672
+  },
+  "payloads/assets/juicedomain_race.pak/vsc/UI/Octane_BoostBar/Octane_BoostBar_Root.igz": {
+    "sha256": "0ddb95514414b490f3716dd5499cc06551a09eb831386c89ba538e32e4e2b888",
+    "bytes": 7416
+  },
+  "payloads/assets/juicedomain_race_flareday.pak/textures/GuiStandard_diffuse,textures@!ui!Octane!Boost!octane_ui_hud_boost_bg`tga,001.igz": {
+    "sha256": "1d37c0d598016de0b2c8c87b93dcd69f7315e47611884c1ef1ee29c7f4647efb",
+    "bytes": 18948352
+  },
+  "payloads/assets/juicedomain_race_flareday.pak/ui/GuiSharedAssets/Octane_BoostBar.igz": {
+    "sha256": "b9c29e89fd589b9c4df0e8587067aedac31eb03d349d06b28a64e662b4c15012",
+    "bytes": 7992
+  },
+  "payloads/assets/juicedomain_race_flareday.pak/ui/materialInstances/GuiSharedAssets/juice_Octane_BoostBar_materials.igz": {
+    "sha256": "1a5fb233bc20b22f86dfaddf85e01ee9ff5d261e78109891685e5e7723941f50",
+    "bytes": 4968
+  },
+  "payloads/assets/juicedomain_race_flareday.pak/ui/Octane_Racer_HUD.igz": {
+    "sha256": "39c2280e89cf68db5e676edb8390c5039e397debbd3779e7afc9a7b17f9124c7",
+    "bytes": 56964
+  },
+  "payloads/assets/juicedomain_race_flareday.pak/vsc/common/UI/Octane_BoostBar/common_Octane_BoostBar.igz": {
+    "sha256": "bdf9e6e217dc60c7d3816a118ba8cc8777c90c56d396af8b65dd341bbc6d35d4",
+    "bytes": 24864
+  },
+  "payloads/assets/juicedomain_race_flareday.pak/vsc/common/UI/Octane_Racer_HUD/Octane_Racer_HUD_Speedometer.igz": {
+    "sha256": "aa453a94c66e185d1f4b02ba04b5149ff28b701c200b5129266e44b5d551edc0",
+    "bytes": 18672
+  },
+  "payloads/assets/juicedomain_race_flareday.pak/vsc/UI/Octane_BoostBar/Octane_BoostBar_Root.igz": {
+    "sha256": "0ddb95514414b490f3716dd5499cc06551a09eb831386c89ba538e32e4e2b888",
+    "bytes": 7416
+  },
+  "payloads/assets/juicedomain_race_flarenight.pak/textures/GuiStandard_diffuse,textures@!ui!Octane!Boost!octane_ui_hud_boost_bg`tga,001.igz": {
+    "sha256": "1d37c0d598016de0b2c8c87b93dcd69f7315e47611884c1ef1ee29c7f4647efb",
+    "bytes": 18948352
+  },
+  "payloads/assets/juicedomain_race_flarenight.pak/ui/GuiSharedAssets/Octane_BoostBar.igz": {
+    "sha256": "b9c29e89fd589b9c4df0e8587067aedac31eb03d349d06b28a64e662b4c15012",
+    "bytes": 7992
+  },
+  "payloads/assets/juicedomain_race_flarenight.pak/ui/materialInstances/GuiSharedAssets/juice_Octane_BoostBar_materials.igz": {
+    "sha256": "1a5fb233bc20b22f86dfaddf85e01ee9ff5d261e78109891685e5e7723941f50",
+    "bytes": 4968
+  },
+  "payloads/assets/juicedomain_race_flarenight.pak/ui/Octane_Racer_HUD.igz": {
+    "sha256": "39c2280e89cf68db5e676edb8390c5039e397debbd3779e7afc9a7b17f9124c7",
+    "bytes": 56964
+  },
+  "payloads/assets/juicedomain_race_flarenight.pak/vsc/common/UI/Octane_BoostBar/common_Octane_BoostBar.igz": {
+    "sha256": "bdf9e6e217dc60c7d3816a118ba8cc8777c90c56d396af8b65dd341bbc6d35d4",
+    "bytes": 24864
+  },
+  "payloads/assets/juicedomain_race_flarenight.pak/vsc/common/UI/Octane_Racer_HUD/Octane_Racer_HUD_Speedometer.igz": {
+    "sha256": "aa453a94c66e185d1f4b02ba04b5149ff28b701c200b5129266e44b5d551edc0",
+    "bytes": 18672
+  },
+  "payloads/assets/juicedomain_race_flarenight.pak/vsc/UI/Octane_BoostBar/Octane_BoostBar_Root.igz": {
+    "sha256": "0ddb95514414b490f3716dd5499cc06551a09eb831386c89ba538e32e4e2b888",
+    "bytes": 7416
+  },
+  "payloads/assets/update.pak/ui/GuiSharedAssets/Octane_BoostBar.igz": {
+    "sha256": "ab098b918cb764239fd037ff1062b96fcd81b7dd688c34be63ad0b02d3c2d2ed",
+    "bytes": 8008
+  },
+  "payloads/assets/update.pak/ui/Octane_Racer_HUD.igz": {
+    "sha256": "9b0dd3efdb238585c8b754d06f724b19c0feffb388c06fe7738d3690ab1e4188",
+    "bytes": 68500
+  },
+  "payloads/assets/update2.pak/ui/Octane_Racer_HUD.igz": {
+    "sha256": "3d1091ccc76ef2b8a9e7d4e0b7c29367e33b8516001d3d80b2c79200b931a670",
+    "bytes": 78660
+  },
+  "README.txt": {
+    "sha256": "3349ca5372417a7a115ed94a8964df841772005fb7e44ece2763cfead5aad0b5",
+    "bytes": 2074
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "author": "tomtotom",
+  "source": "https://gamebanana.com/mods/729041",
+  "images": [
+    {
+      "url": "https://images.gamebanana.com/img/ss/mods/6ad420a79d527.jpg",
+      "file": "original-preview-1.jpg",
+      "bytes": 302327,
+      "sha256": "e87c4ad5e3d8a506ab72e31d8b32651533736b0b1a077a63c231435ca3159c9e"
+    },
+    {
+      "url": "https://images.gamebanana.com/img/ss/mods/6ad420ac58df3.jpg",
+      "file": "original-preview-2.jpg",
+      "bytes": 412520,
+      "sha256": "e981839b48cd4545d9e199e62f0213533707f58ddea045e09949a3c84e3507ca"
+    },
+    {
+      "url": "https://images.gamebanana.com/img/ss/mods/6ad420c65cd42.jpg",
+      "file": "original-preview-3.jpg",
+      "bytes": 506807,
+      "sha256": "1d1a47550b5f2855803c37e9e09ff739d59d19b5b3e037f40abc74bb4346ff7d"
+    },
+    {
+      "url": "https://images.gamebanana.com/img/ss/mods/6ad420c65f834.jpg",
+      "file": "original-preview-4.jpg",
+      "bytes": 562323,
+      "sha256": "750657f537a496f85295a4117c0dac4ed0b07d0d9d568d35f97fbad7ce5ff4ce"
+    }
+  ]
+}
